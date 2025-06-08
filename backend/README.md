@@ -76,7 +76,7 @@ pip install -r requirements.txt
 This command will create all the necessary tables in your database.
 
 ```bash
-python run.py --init-db
+python run.py --init-db --team 1
 ```
 
 ### 5. Running the Simulations
