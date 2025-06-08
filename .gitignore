@@ -1,0 +1,75 @@
+# =================================================================
+# General
+# =================================================================
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Git backup 
+.git_old/
+
+# =================================================================
+# Python / Backend
+# =================================================================
+
+# Virtual environments
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Python cache
+backend/__pycache__/
+**/*.py[cod]
+
+# Test artifacts
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Database files
+backend/*.db
+backend/*.sqlite3
+
+# Logs and secrets
+backend/finsimco.log
+backend/.env
+
+# =================================================================
+# Node.js / Frontend
+# =================================================================
+
+# Dependencies
+frontend/node_modules/
+
+# Build artifacts
+frontend/dist/
+frontend/.vite/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Lockfiles for other package managers
+# We commit package-lock.json, but ignore others to avoid conflicts.
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# Secrets
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
